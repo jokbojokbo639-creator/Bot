@@ -836,11 +836,5 @@ async def nickname(
             f"❌ {e}",
             ephemeral=True
         )
-        # ==========================
-# RUN BOT
-# ==========================
-
-if TOKEN is None:
-    raise ValueError("❌ لم يتم العثور على TOKEN. أضف التوكن في متغيرات البيئة.")
 
 bot.run(TOKEN)
